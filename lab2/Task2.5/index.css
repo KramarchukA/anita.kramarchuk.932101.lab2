@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.content {
+    width: 600px;
+    background-color: blue;
+    color: #fff;
+    margin: 0 auto ;
+}
+.block1 {
+    background-color: green;
+    margin-bottom: 1rem;
+}
+.block2{
+    padding:2rem;
+    border: 2rem solid blue;
+}

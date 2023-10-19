@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content {
+    border: 1px solid forestgreen;
+    background-color: aqua;
+}
+.contentNav {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.contentNav ul {
+    background-color: bisque;
+    padding: 10px 10px 10px 40px;
+}
+
+.contentText {
+    display: inline-block;
+    max-width: 69%;
+    background-color: darkgray;
+    display: flow-root;
+}
+
+img{
+    float: right;
+    width: 40%;
+}
+.clear{
+    clear:right;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 80px;
+    background-color: #ebebeb;
+    padding: 15px;
+}
+.LeftColumn {
+	margin-right: 5px;
+    padding:0px 5px 0px 5px;
+	width: 25%;
+    background-color: #C8FC98;
+	float: left;
+}
+.RightColumn{
+    margin-right: 5px;
+    padding:0px 5px 0px 5px;
+	width: 200px;
+    background-color:#FDE95E;
+	float: right;
+}
+span{
+	color:red;
+	font-style: italic;
+}
+.clear{
+	clear: both;
+}
+.footer {
+
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}

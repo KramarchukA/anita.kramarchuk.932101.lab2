@@ -1,0 +1,41 @@
+*{
+    margin: 0 0 0 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 150px;
+    height: 100px; 
+}
+.static{
+    background-color: blueviolet;
+    position: static;
+}
+.relative1{
+    background-color: darkred;
+    position: relative;
+}
+.relative2{
+    background-color: peru;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+.absolute{
+    background-color: indigo;
+    position:absolute;
+    right: 0;
+    top:150px;
+}
+.outer-container{
+    background-color: indianred;
+    width: 450px;
+    height: 300px;
+    position: relative;
+}
+.fixed{
+    background-color: green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
